@@ -8,9 +8,9 @@
 * Ideas about improvements:
   * Redo the simple caching of the dataset. It currently uses a global variable, but I think some of the object-oriented ideas from the second assignment and experiments with closures could be used instead.
   * Separate the helper functions out into a dedicated utilities file sourced into each function file.
-  * Create get.best(), get.worst(), and get.rank() helper functions.
+  * Create `get.best()`, `get.worst()`, and `get.rank()` helper functions.
   * Factor out the primary functions' code commonalities into more helper functions.
   * While the primary functions may not be shareable, the code files themselves may be able to be cascaded similar to how I have them now (but hopefully better refined).
   * Remember that these are scripts and not overly-structured, compiled source files (e.g. C and its required main() function). Use that to better advantage in code and design.
-  * Revisit the processes of rankall()--look for ways to simplify and focus the subtasks of the function and how it acts on the data.
+  * Revisit the processes of `rankall()`--look for ways to simplify and focus the subtasks of the function and how it acts on the data.
   
